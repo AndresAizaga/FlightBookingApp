@@ -1,0 +1,60 @@
+﻿@model FlightBookingApp.Web.Models.Flight
+
+@{
+    ViewData["Title"] = "Create Flight";
+}
+
+<div class="row justify-content-center my-sm-5">
+    <div class="col-md-6">
+        <section class="card shadow p-4">
+            <h2 class="text-center mb-4">Create Flight</h2>
+            <form asp-action="Create" id="create-flight-form">
+                <div class="mb-3 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-plane"></i></span>
+                    </div>
+                    <input asp-for="Airline" class="form-control" placeholder="Airline" />
+                    <label asp-for="Airline" class="form-label visually-hidden">Airline</label>
+                </div>
+                <span asp-validation-for="Airline" class="badge badge-danger mb-3"></span>
+
+                <div class="mb-3 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                    </div>
+                    <input asp-for="Destination" class="form-control" placeholder="Destination" />
+                    <label asp-for="Destination" class="form-label visually-hidden">Destination</label>
+                </div>
+                <span asp-validation-for="Destination" class="badge badge-danger mb-3"></span>
+
+                <div class="mb-3 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-clock"></i></span>
+                    </div>
+                    <input asp-for="DepartureTime" class="form-control" type="datetime-local" placeholder="Departure Time" />
+                    <label asp-for="DepartureTime" class="form-label visually-hidden">Departure Time</label>
+                </div>
+                <span asp-validation-for="DepartureTime" class="badge badge-danger mb-3"></span>
+
+                <button type="submit" class="w-100 btn btn-lg btn-primary">Create</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('create-flight-form').addEventListener('submit', function (event) {
+            var departureTimeInput = document.querySelector('input[name="DepartureTime"]');
+            var departureTime = new Date(departureTimeInput.value);
+            var now = new Date();
+            now.setDate(now.getDate() + 1); // At least next day
+
+            if (departureTime < now) {
+                event.preventDefault();
+                alert('The departure time must be at least one day in the future.');
+            }
+        });
+    </script>
+}

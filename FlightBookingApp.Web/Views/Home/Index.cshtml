@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="text-center">
+        <h2>Welcome to FlightBookingApp</h2>
+        <p class="lead">Your one-stop solution for booking and managing flights.
+            @if (!User.Identity.IsAuthenticated)
+            {
+                <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-success btn-lg">Register now!</a>
+            }
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/images/flight1.png" alt="Flight 1">
+                <div class="card-body">
+                    <h5 class="card-title">Easy Booking</h5>
+                    <p class="card-text">Book your flights easily with our user-friendly interface.</p>
+                </div>
+            </div>
+            <br />
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/images/flight2.png" alt="Flight 2">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Your Flights</h5>
+                    <p class="card-text">View and manage your upcoming flights all in one place.</p>
+                </div>
+            </div>
+            <br />
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="~/images/flight3.png" alt="Flight 3">
+                <div class="card-body">
+                    <h5 class="card-title">Get Notified</h5>
+                    <p class="card-text">Receive notifications and reminders for your flights.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

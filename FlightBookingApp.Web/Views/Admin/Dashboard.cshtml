@@ -1,0 +1,46 @@
+﻿@model IEnumerable<FlightBookingApp.Web.Models.Booking>
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="row justify-content-center my-5">
+    <div class="col-md-12">
+        <section class="card shadow p-4">
+            <h2 class="text-center mb-4">Admin Dashboard</h2>
+
+            <table class="table table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th><i class="fas fa-plane-departure"></i> Airline</th>
+                        <th><i class="fas fa-map-marker-alt"></i> Destination</th>
+                        <th><i class="fas fa-clock"></i> Departure Time</th>
+                        <th><i class="fas fa-calendar-alt"></i> Booking Date</th>
+                        <th><i class="fas fa-user"></i> User Name</th>
+                        <th><i class="fas fa-credit-card"></i> Card Last Four Digits</th>
+                        <th><i class="fas fa-cogs"></i> Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var booking in Model)
+                    {
+                        <tr>
+                            <td>@booking.Flight.Airline</td>
+                            <td>@booking.Flight.Destination</td>
+                            <td>@booking.Flight.DepartureTime.ToString("dd/MM/yyyy HH:mm")</td>
+                            <td>@booking.BookingDate.ToString("dd/MM/yyyy")</td>
+                            <td>@booking.UserName</td>
+                            <td>@booking.CardLastFourDigits</td>
+                            <td>
+                                <a href="@Url.Action("EditBooking", "Admin", new { id = booking.Id })" class="btn btn-primary btn-sm"><i class="fas fa-edit"></i> Edit</a>
+                                <form asp-action="DeleteBooking" asp-controller="Admin" asp-route-id="@booking.Id" method="post" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this booking?');">
+                                    <button type="submit" class="btn btn-danger btn-sm"><i class="fas fa-trash-alt"></i> Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </section>
+    </div>
+</div>

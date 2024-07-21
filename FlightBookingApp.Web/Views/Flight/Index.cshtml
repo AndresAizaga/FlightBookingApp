@@ -1,0 +1,35 @@
+﻿@model IEnumerable<FlightBookingApp.Web.Models.Flight>
+
+@{
+    ViewData["Title"] = "Available Flights";
+    var isAdmin = User.IsInRole("Admin");
+}
+
+<h2>Available Flights</h2>
+
+@if (isAdmin)
+{
+    <a href="@Url.Action("Create", "Flight")" class="btn btn-success mb-4">Add New Flight</a>
+}
+
+<div class="row">
+    @foreach (var flight in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@flight.Airline</h5>
+                    <p class="card-text">
+                        <strong>Destination:</strong> @flight.Destination<br />
+                        <strong>Departure Time:</strong> @flight.DepartureTime.ToString("dd/MM/yyyy HH:mm")
+                    </p>
+                    <a href="@Url.Action("Book", "Flight", new { id = flight.Id })" class="btn btn-primary">Book Now</a>
+                    @if (isAdmin)
+                    {
+                        <a href="@Url.Action("Edit", "Flight", new { id = flight.Id })" class="btn btn-warning">Edit</a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div> 

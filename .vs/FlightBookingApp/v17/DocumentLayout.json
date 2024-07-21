@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\services\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\services\\notificationbackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\controllers\\flightcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\models\\paymentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\models\\paymentresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\models\\paymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\models\\paymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\models\\flightstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\models\\flightstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\models\\flight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\flight\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\flight\\confirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\user\\myflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\user\\myflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\user\\reschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\user\\reschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\flight\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\flight\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\flight\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\flight\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\flight\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\flight\\book.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\flight\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\flight\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\admin\\editbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\admin\\editbooking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|c:\\workdir\\andrew\\flightbookingapp\\flightbookingapp\\flightbookingapp.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6D55960-A42E-407F-8736-6C2E00CC7E37}|FlightBookingApp.Web\\FlightBookingApp.Web.csproj|solutionrelative:flightbookingapp.web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\SeedData.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\SeedData.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\SeedData.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\SeedData.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAF4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotificationBackgroundService.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Services\\NotificationBackgroundService.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Services\\NotificationBackgroundService.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Services\\NotificationBackgroundService.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Services\\NotificationBackgroundService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:56:52.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Program.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Program.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Program.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwAwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FlightController.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\FlightController.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Controllers\\FlightController.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\FlightController.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Controllers\\FlightController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAmwEwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\appsettings.json",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\appsettings.json",
+              "RelativeToolTip": "FlightBookingApp.Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-21T20:59:38.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PaymentResult.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\PaymentResult.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Models\\PaymentResult.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\PaymentResult.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Models\\PaymentResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PaymentDetails.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\PaymentDetails.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Models\\PaymentDetails.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\PaymentDetails.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Models\\PaymentDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnableAuthenticator.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FlightStatus.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\FlightStatus.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Models\\FlightStatus.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\FlightStatus.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Models\\FlightStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnableAuthenticator.cshtml.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAiwLYAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Models\\Booking.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\Booking.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Models\\Booking.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwFgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Flight.cs",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\Flight.cs",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Models\\Flight.cs",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Models\\Flight.cs",
+              "RelativeToolTip": "FlightBookingApp.Web\\Models\\Flight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T20:55:08.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Reschedule.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\User\\Reschedule.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\User\\Reschedule.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\User\\Reschedule.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\User\\Reschedule.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Index.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Flight\\Index.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Index.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Flight\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Confirmation.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Confirmation.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Flight\\Confirmation.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Confirmation.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Flight\\Confirmation.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyFlights.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\User\\MyFlights.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\User\\MyFlights.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\User\\MyFlights.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\User\\MyFlights.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditBooking.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Admin\\EditBooking.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Admin\\EditBooking.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Admin\\EditBooking.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Admin\\EditBooking.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Create.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Flight\\Create.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Create.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Flight\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Edit.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Flight\\Edit.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Edit.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Flight\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Book.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Book.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Flight\\Book.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Flight\\Book.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Flight\\Book.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAowC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "FlightBookingApp.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AQIAAKQIAAAAAAAAAAAtwKwIAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-21T20:55:08.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Workdir\\ANDREW\\FlightBookingApp\\FlightBookingApp\\FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "FlightBookingApp.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAAowDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T20:55:08.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

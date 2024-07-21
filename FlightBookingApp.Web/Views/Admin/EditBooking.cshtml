@@ -1,0 +1,52 @@
+﻿@model FlightBookingApp.Web.ViewModel.EditBookingViewModel
+
+@{
+    ViewData["Title"] = "Edit Booking";
+}
+
+<div class="row justify-content-center my-sm-5">
+    <div class="col-md-6">
+        <section class="card shadow p-4">
+            <h2 class="text-center mb-4">Edit Booking</h2>
+            <form asp-action="EditBooking" id="edit-booking-form">
+                <input type="hidden" asp-for="Booking.Id" />
+                <input type="hidden" asp-for="Booking.FlightId" />
+                <input type="hidden" asp-for="Booking.Flight.DepartureTime" />
+                <input type="hidden" asp-for="Booking.Flight.Airline" />
+                <input type="hidden" asp-for="Booking.Flight.Destination" />
+                <input type="hidden" asp-for="Booking.Flight.Id" />
+
+                <div class="mb-3">
+                    <label class="form-label">Current Flight</label>
+                    <p class="form-control-plaintext">@Model.Booking.Flight.Airline - @Model.Booking.Flight.Destination - @Model.Booking.Flight.DepartureTime</p>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Available Flights</label>
+                    <select asp-for="NewFlightId" class="form-select">
+                        @foreach (var flight in Model.AvailableFlights)
+                        {
+                            <option value="@flight.Id">@flight.Airline - @flight.Destination - @flight.DepartureTime</option>
+                        }
+                    </select>
+                    <span asp-validation-for="NewFlightId" class="badge badge-danger"></span>
+                </div>
+
+                <button type="submit" class="w-100 btn btn-lg btn-primary">Update Booking</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        document.getElementById('edit-booking-form').addEventListener('submit', function (event) {
+            var selectedFlightId = document.querySelector('select[name="NewFlightId"]').value;
+            if (!selectedFlightId) {
+                event.preventDefault();
+                alert('Please select a valid flight.');
+            }
+        });
+    </script>
+}

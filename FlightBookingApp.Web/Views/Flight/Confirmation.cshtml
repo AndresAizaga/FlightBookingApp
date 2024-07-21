@@ -1,0 +1,46 @@
+﻿@model FlightBookingApp.Web.Models.Booking
+
+@{
+    ViewData["Title"] = "Booking Confirmation";
+}
+
+<div class="row justify-content-center my-5">
+    <div class="col-md-8">
+        <section class="card shadow p-4">
+            <h2 class="text-center mb-4">Booking Confirmation</h2>
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading"><i class="fas fa-check-circle"></i> Your flight has been booked successfully!</h4>
+                <hr />
+                <dl class="row">
+                    <dt class="col-sm-3">
+                        <i class="fas fa-plane"></i> Airline
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.Flight.Airline
+                    </dd>
+                    <dt class="col-sm-3">
+                        <i class="fas fa-map-marker-alt"></i> Destination
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.Flight.Destination
+                    </dd>
+                    <dt class="col-sm-3">
+                        <i class="fas fa-clock"></i> Departure Time
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.Flight.DepartureTime.ToString("dd/MM/yyyy HH:mm")
+                    </dd>
+                    <dt class="col-sm-3">
+                        <i class="fas fa-calendar-alt"></i> Booking Date
+                    </dt>
+                    <dd class="col-sm-9">
+                        @Model.BookingDate.ToString("dd/MM/yyyy")
+                    </dd>
+                </dl>
+            </div>
+            <div class="text-center">
+                <a asp-action="Index" class="btn btn-primary"><i class="fas fa-arrow-left"></i> Back to Flights</a>
+            </div>
+        </section>
+    </div>
+</div>

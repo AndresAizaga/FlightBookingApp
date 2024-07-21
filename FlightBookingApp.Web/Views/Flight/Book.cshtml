@@ -1,0 +1,112 @@
+﻿@model FlightBookingApp.Web.ViewModel.BookingViewModel
+
+@{
+    ViewData["Title"] = "Book a Flight";
+}
+
+<div class="row justify-content-center my-sm-5">
+    <div class="col-md-6">
+        <section class="card shadow p-4">
+            <h2 class="text-center mb-4">Book your flight</h2>
+            <form id="booking-form" method="post">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                <!-- Hidden fields to store flight details -->
+                <input type="hidden" asp-for="Flight.Id" />
+                <input type="hidden" asp-for="Flight.Airline" />
+                <input type="hidden" asp-for="Flight.Destination" />
+                <input type="hidden" name="Flight.DepartureTime" value="@Model.Flight.DepartureTime.ToString("yyyy-MM-ddTHH:mm:ss")" />
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Flight.Airline" class="form-control" disabled placeholder="Airline" />
+                    <label asp-for="Flight.Airline" class="form-label">Airline</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Flight.Destination" class="form-control" disabled placeholder="Destination" />
+                    <label asp-for="Flight.Destination" class="form-label">Destination</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Flight.DepartureTime" class="form-control" disabled placeholder="Departure Time" value="@Model.Flight.DepartureTime.ToString("yyyy-MM-ddTHH:mm:ss")" />
+                    <label asp-for="Flight.DepartureTime" class="form-label">Departure Time</label>
+                </div>
+                <div class="mb-3 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-credit-card"></i></span>
+                    </div>
+                    <input asp-for="PaymentDetails.CardNumber" class="form-control" placeholder="Card Number" data-mask="0000 0000 0000 0000" required />
+                    <label asp-for="PaymentDetails.CardNumber" class="form-label visually-hidden">Card Number</label>
+                </div>
+                <span asp-validation-for="PaymentDetails.CardNumber" class="badge badge-danger mb-3"></span>
+                <div class="mb-3 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    </div>
+                    <input asp-for="PaymentDetails.CardHolderName" class="form-control" placeholder="Card Holder Name" required />
+                    <label asp-for="PaymentDetails.CardHolderName" class="form-label visually-hidden">Card Holder Name</label>
+                </div>
+                <span asp-validation-for="PaymentDetails.CardHolderName" class="badge badge-danger mb-3"></span>
+                <div class="mb-3 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-calendar-alt"></i></span>
+                    </div>
+                    <input asp-for="PaymentDetails.ExpiryDate" class="form-control" placeholder="Expiry Date" id="expiryDate" required pattern="\d{2}/\d{2}" />
+                    <label asp-for="PaymentDetails.ExpiryDate" class="form-label visually-hidden">Expiry Date</label>
+                </div>
+                <span asp-validation-for="PaymentDetails.ExpiryDate" class="badge badge-danger mb-3"></span>
+                <div class="mb-3 input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                    </div>
+                    <input asp-for="PaymentDetails.CVV" class="form-control" placeholder="CVV" data-mask="000" required pattern="\d{3}" />
+                    <label asp-for="PaymentDetails.CVV" class="form-label visually-hidden">CVV</label>
+                </div>
+                <span asp-validation-for="PaymentDetails.CVV" class="badge badge-danger mb-3"></span>
+                <button type="submit" class="w-100 btn btn-lg btn-primary">Book</button>
+            </form>
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            // Mask for card number
+            $('[data-mask="0000 0000 0000 0000"]').mask('0000 0000 0000 0000');
+
+            // Mask for expiry date
+            $('#expiryDate').mask('00/00', {
+                placeholder: "MM/YY"
+            });
+
+            // Mask for CVV
+            $('[data-mask="000"]').mask('000');
+
+            $('#booking-form').on('submit', function (e) {
+                var isValid = true;
+                var expiryDateVal = $('#expiryDate').val();
+                var dateParts = expiryDateVal.split('/');
+                var month = parseInt(dateParts[0], 10);
+                var year = parseInt('20' + dateParts[1], 10); // Convert YY to YYYY
+                var expiryDate = new Date(year, month);
+
+                // Check if date is valid
+                if (isNaN(expiryDate.getTime())) {
+                    isValid = false;
+                    alert('Please enter a valid date in the format MM/YY.');
+                }
+
+                // Check if expiry date is in the future
+                var today = new Date();
+                if (expiryDate < today) {
+                    isValid = false;
+                    alert('The expiry date must be greater than or equal to today.');
+                }
+
+                if (!isValid) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+}

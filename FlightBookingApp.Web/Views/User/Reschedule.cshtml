@@ -1,0 +1,40 @@
+﻿@model FlightBookingApp.Web.ViewModel.RescheduleViewModel
+
+@{
+    ViewData["Title"] = "Reschedule Flight";
+}
+
+<div class="row justify-content-center my-5">
+    <div class="col-md-8">
+        <section class="card shadow p-4">
+            <h2 class="text-center mb-4">Reschedule Flight</h2>
+            <form asp-action="Reschedule">
+                <input type="hidden" asp-for="Booking.Id" name="bookingId" />
+                <div class="mb-3">
+                    <label class="form-label"><i class="fas fa-plane-departure"></i> Current Flight</label>
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <strong>Airline:</strong> @Model.Booking.Flight.Airline <br />
+                                <strong>Destination:</strong> @Model.Booking.Flight.Destination <br />
+                                <strong>Departure Time:</strong> @Model.Booking.Flight.DepartureTime.ToString("dd/MM/yyyy HH:mm")
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"><i class="fas fa-calendar-alt"></i> Available Flights</label>
+                    <select asp-for="NewFlightId" class="form-control" name="newFlightId">
+                        @foreach (var flight in Model.AvailableFlights)
+                        {
+                            <option value="@flight.Id">@flight.Airline - @flight.Destination - @flight.DepartureTime</option>
+                        }
+                    </select>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary"><i class="fas fa-exchange-alt"></i> Reschedule</button>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
